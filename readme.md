@@ -5,7 +5,6 @@
 
 > Get the rc file path for any Linux/Unix Shell
 
-
 ## Install
 
 ```
@@ -17,22 +16,20 @@ npm install --save get-shell-rc
 ```js
 const getShellRc = require('get-shell-rc');
 
-getShellRc('hackathons');
-//=> 'hackathons'
-```
+// when using bash
+getShellRc();
+//=> '/users/yourUsername/.bashrc'
 
+// when using zsh
+getShellRc();
+//=> '/users/yourUsername/.zshrc'
+```
 
 ## API
 
-### getShellRc(target)
+### getShellRc()
 
-#### target
-
-Type: `string`
-
-#### returns
-
-Type: `string`
+Returns a `string` with the absolute file path to your respective shell's `rc` file.
 
 ## License
 
