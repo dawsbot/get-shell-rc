@@ -1,0 +1,47 @@
+{
+  "name": "get-shell-rc",
+  "version": "0.0.0",
+  "description": "Get the rc file path for any Linux/Unix Shell",
+  "license": "MIT",
+  "homepage": "https://github.com/dawsonbotsford/get-shell-rc#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawsonbotsford/get-shell-rc.git"
+  },
+  "author": {
+    "name": "Dawson Botsford",
+    "email": "dawsonb@uber.com",
+    "url": "dawsonbotsford.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dawsonbotsford/get-shell-rc/issues"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "transpile": "babel src --out-dir=dist",
+    "lint": "xo src",
+    "test": "npm run lint && npm run transpile && ava"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "documented",
+    "tested",
+    "licensed",
+    "dawson"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "space": true
+  }
+}
