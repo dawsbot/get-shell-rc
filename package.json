@@ -1,6 +1,6 @@
 {
   "name": "get-shell-rc",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the rc file path for any Linux/Unix Shell",
   "license": "MIT",
   "homepage": "https://github.com/dawsonbotsford/get-shell-rc#readme",
